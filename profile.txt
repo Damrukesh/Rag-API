@@ -1,0 +1,138 @@
+Your fear is very common, but the reality is much better than you're imagining.
+
+First: No, you are not "stuck" after joining Infosys
+
+If you join in September 2026:
+
+Sept 2026 → Training
+Around Mar 2027 → Project allocation
+By Sept 2027 → ~1 year experience
+
+You can switch at 3 different stages:
+
+During training (off-campus opportunities)
+After 6–12 months experience
+After 1.5–2 years experience
+
+Many people move from Infosys/TCS/Wipro to 12–25 LPA companies within 1–2 years.
+
+Second: You are no longer competing with 2026 freshers
+
+This is actually a good thing.
+
+After 1 year:
+
+You are competing for:
+
+Associate Software Engineer
+Software Development Engineer
+ML Engineer
+Data Engineer
+AI Engineer
+
+instead of fresher campus hiring.
+
+Companies care about:
+
+Skills
+Projects
+Interview performance
+
+far more than your original college placement.
+
+The real danger
+
+The danger is not Infosys.
+
+The danger is spending 1 year doing only:
+
+Internal training
+Mandatory project work
+No DSA
+No portfolio
+No networking
+
+Then suddenly trying to switch.
+
+That is where people get trapped.
+
+If I were in your position
+
+I would divide the next 18 months like this:
+
+Phase 1: Now → Joining (2 months)
+
+Focus only on:
+
+DSA
+Python
+SQL
+One strong AI/ML project
+
+Do not scatter into 10 different technologies.
+
+Phase 2: Training Period (6 months)
+
+Spend 1-2 hours daily on:
+
+LeetCode
+System Design basics
+Cloud (AWS/Azure)
+Git/GitHub
+AI/ML project portfolio
+
+Goal:
+Have a profile stronger than a typical Infosys trainee.
+
+Phase 3: First 6-12 months after allocation
+
+Choose one target:
+
+Path A: SDE
+
+DSA
+Backend
+System Design
+
+Path B: AI/ML Engineer (matches your long-term goal)
+
+ML
+LLMs
+MLOps
+Cloud deployment
+Production AI projects
+
+Don't try to master both simultaneously.
+
+About the 15 LPA target
+
+15 LPA is not unrealistic at all.
+
+What usually gets people there:
+
+Strong DSA
+Good GitHub
+2-3 serious projects
+Referral-based applications
+Consistent interview preparation
+
+Not:
+
+Infosys brand name
+Years of experience
+What I would optimize for
+
+Given your earlier goal of building an AI/ML career and eventually keeping options open for higher studies abroad, I would use Infosys as:
+
+Salary + experience source
+
+while spending the next 12-18 months building:
+
+AI/ML portfolio
+LeetCode skills
+Cloud skills
+Professional GitHub profile
+
+Think of Infosys as a launchpad, not your destination.
+
+If you execute consistently, a move from Infosys to a 12–20 LPA role within 1–2 years is a very realistic outcome. The people who struggle are usually the ones who stop learning after joining.
