@@ -12,7 +12,7 @@ client = chromadb.PersistentClient(path="./chroma_db")
 
 ef = OllamaEmbeddingFunction(
     model_name="nomic-embed-text",
-    url="http://localhost:11434",
+    url="http://host.docker.internal:11434",
 )
 
 collection = client.get_or_create_collection(
@@ -20,7 +20,7 @@ collection = client.get_or_create_collection(
     embedding_function=ef,
 )
 
-
+ollama_client = ollama.Client(host="http://host.docker.internal:11434")
 
 @app.get("/ask")  # This creates a GET endpoint at /ask
 def ask(question: str):  # FastAPI automatically reads "question" from the URL query string
@@ -42,14 +42,14 @@ Context:
 Question: {question}"""
 
     # Step 3: GENERATE - send the augmented prompt to the local LLM
-    response = ollama.chat(
-        model="phi3",
-        messages=[{"role": "user", "content": augmented_prompt}],
+    answer = ollama_client.generate(
+        model="tinyllama",
+        prompt=f"Context:\n{context}\n\nQuestion: {question}\n\nAnswer clearly and concisely:"
     )
 
     # Return the answer along with the context so users can verify the source
     return {
         "question": question,
-        "answer": response["message"]["content"],
+        "answer": answer["response"],
         "context_used": results["documents"][0],
     }

@@ -65,7 +65,7 @@ client = chromadb.PersistentClient(path=str(BASE_DIR / "chroma_db"))
 # Connect to Ollama's embedding model to convert text into vectors
 ef = OllamaEmbeddingFunction(
     model_name="nomic-embed-text",
-    url="http://localhost:11434",  # Ollama's default local address
+    url="http://host.docker.internal:11434",  # Ollama's address (works in Docker on Windows/Mac)
 )
 
 # Create (or reuse) a collection - like a table in a database
